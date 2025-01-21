@@ -7,9 +7,15 @@ Assistente/*
 # Ignorar tudo dentro de IA
 Assistente/IA/*
 
+# Exceção: Não ignorar o arquivo main.py
+!Assistente/main.py
+
 # Exceção: Não ignorar arquivos na raiz de IA
 !Assistente/IA/*
 
 # Ignorar arquivos gerados automaticamente
 .venv/
+
+.idea/
+
 __pycache__/
