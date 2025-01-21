@@ -1,0 +1,30 @@
+{
+    "PATH": [
+        "Assistente/",
+        "Assistente/Conversas/",
+        "Assistente/Configuracoes/",
+        "Assistente/Info_user/",
+        "Assistente/Info_ia/",
+        "Assistente/IA/"
+    ],
+    "FILES": [
+        "Assistente/Configuracoes/link.txt",
+        "Assistente/Configuracoes/key.txt"
+    ],
+    "BIBLIOTECAS": [
+        "os",
+        "json",
+        "groq"
+    ],
+    "link": "https://aistudio.google.com/app/apikey?hl=pt-br",
+    "TUTORIAL": [
+        "Antes de iniciar o assistente, devemos criar um arquivo key para o uso do assistente!",
+        "Para isso devemos criar um arquivo key.txt no diretório Assistente/Configuracoes/",
+        "Logo após, entraremos no site do GOOGLE AI STUDIO e criaremos um projeto com o nome de 'Assistente'.",
+        "Em caso de dúvida, o link estará em um txt na pasta Assistente/Configuracoes/link.txt.",
+        "Ok! Agora com a chave de acesso, podemos iniciar o projeto!",
+        "Por segurança, clique no botão 'Verificar' para verificar se a chave de acesso está correta.",
+        "Logo após, o botão de 'Iniciar' será liberado para o uso do assistente!"
+    ],
+    "Execucao": false
+}

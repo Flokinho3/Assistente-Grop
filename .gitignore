@@ -1,0 +1,15 @@
+# Ignorar tudo na pasta Assistente
+Assistente/*
+
+# Exceção: Não ignorar a pasta IA
+!Assistente/IA/
+
+# Ignorar tudo dentro de IA
+Assistente/IA/*
+
+# Exceção: Não ignorar arquivos na raiz de IA
+!Assistente/IA/*
+
+# Ignorar arquivos gerados automaticamente
+.venv/
+__pycache__/
