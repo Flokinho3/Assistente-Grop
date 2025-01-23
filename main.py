@@ -153,7 +153,7 @@ def inicio():
     root.configure(bg="black")
 
     # Criação do botão para executar as instruções iniciais
-    botao_executar = tk.Button(root, text="Executar", command=Tutorial)
+    botao_executar = tk.Button(root, text="Tutorial", command=Tutorial)
     botao_executar.pack(pady=10)
 
     # Criação do botão para verificar arquivos, caminhos e bibliotecas
